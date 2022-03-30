@@ -1,0 +1,10 @@
+IPV4 - 32 Bits
+IPV6 - 128 Bits
+
+Network preserved Ip
+10.0.0.0 - network address
+10.0.0.1 - reserved by aws for vc router
+10.0.0.2 -  reserved by aws for ip of dns server
+10.0.0.3 - reserved for aws future use
+10.0.0.255 - network broadcast addr , boradcast is not supported in VPC , therefore the ip is reserved.
+
