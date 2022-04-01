@@ -8,3 +8,36 @@ Network preserved Ip
 10.0.0.3 - reserved for aws future use
 10.0.0.255 - network broadcast addr , boradcast is not supported in VPC , therefore the ip is reserved.
 
+VPC Endpoint - Connect qws services to S3 or other vpc services via private network.
+
+Interface endpoints - other ext service which created within a subnet via private network.
+
+
+Security grops 
+Operates at instance levels3 glacier
+Supports Allow rules only
+Stateful - return traffic is auto allowed
+Apply only to a instance while creating if we are slecting or associating later on
+
+
+Operates at subnet level
+supports both alow and deny rule
+Stateless - return traffic must be explicitly  allow by rules
+Auto allowed to all instances within a subnet.
+
+S3 simple storage service 
+Depends - data access 
+          resilancy
+          cost
+          S3 - standard - General pupose higt durability availability low latency and high frequency (thoughput) mobile and gaming copy in more than one AZ
+          s3 - standard infrequent  higt durability and availability data for less frequntly 99.9999 for storage back and disaster recovery
+          S3 one zone infrequent access
+          s3 intelligent tiering - s3 life cycle management and machine learning for auto migration of objects other s3 storage class
+          
+          s3 glacier - three type 
+          Archival with fast retrival
+          flexible retrieval
+          glacier deep archival
+          
+         
+          
