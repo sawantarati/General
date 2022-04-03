@@ -1,0 +1,31 @@
+Kubernetes - Namespaces
+
+Kubectl config set-context $kubectl get current-context) --namespace dev
+
+
+------HTTP - http over secure socket layer communication between browser and web-server is enceypted
+
+Builder trust
+
+When browser sends req (Secure pages)--> Web server sends (Digital certificate) signature in form of public auth  which is CA
+
+Browser verify digital signature(trust green pedlock)
+
+Browser created a symmetric key (symetric key) encrypted over public key
+
+Web Server decrypt key using private key
+
+Now communication happens.
+
+Asymmetric algorithm used to verify the identity of owner public key so that trust is built.
+
+Once the Connection is established a symmetric key a shared key is used to encrypt and decrypt all traffic between them.
+
+----------------
+
+
+
+
+
+
+
