@@ -1,13 +1,17 @@
 Hi This is Arati, i have 5 years of experience in devops and SRE related activities.
 I have used github enterprise for version control system.
-Jenkins for contineous integration. i have installed jenkins from scratch created master slave configaration. created jenkins pipeline job as per developer requirement.
+Jenkins for contineous integration. i have installed jenkins from scratch created master slave configaration. 
+created jenkins pipeline job as per developer requirement.
 i have used both nexus artifactory and JFrog for storing artifacts.
 For configuration management i have used ansible for creation of services, setting up secrtes and doing mannual deployments on server.
 Our application are containerised, so i have working exp on Docker and kubenetes.
 I have got chance to set-up whole pipeline thorugh K8s. where i am using helm for doing deployments.
-For monitoring purpose we are using slunk and telegraf graphana.
+For monitoring purpose we are using splunk and telegraf graphana.
 Recently we have started moving application to apple.
 So i have good understanding aws networking and services.
+worked on AWS services like EC2 S3 VPC and ELB's
+oncall rotation
+working on prod incidents.
 
 
 
