@@ -23,7 +23,19 @@ Once the Connection is established a symmetric key a shared key is used to encry
 
 ----------------
 
+SSl/TLS handshare Web client - cryptographic algo - ssl tls version - Data Compression method
+                  Web Browser - cryptographic algo agrrement -- ssl tls version -- CA digital certs --- public keey -- session id
+                  
+-------------------
 
+Digital certificate 
+
+Certificate owners name
+owners certificate expiration date
+Certificate issuers name. (CA)
+certificate issuers digital signature
+                  
+                  
 
 
 
