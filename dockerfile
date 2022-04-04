@@ -29,3 +29,13 @@ FROM scratch
 COPY --from=build /bin/project /bin/project
 ENTRYPOINT ["/bin/project"]
 CMD ["--help"]
+
+
+Diff between RUN CMD Entrypoint
+
+When you use a RUN command in your dockerfile, it always creates a new intermediate image layer on top of the previous ones
+
+A CMD command is used to set a default command that gets executed once you run the Docker Container. 
+In case you provide a command with the Docker run command, the CMD arguments get ignored from the dockerfile. 
+
+An ENTRYPOINT command, unlike CMD, does not ignore additional parameters that you specify in your Docker run command. Executable
