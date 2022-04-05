@@ -62,3 +62,8 @@ SElinux - security enhanced linux is linnux kernal security module whixh support
 /proc/uptime – Uptime information (in seconds).
 /proc/version – Kernel version, gcc version, and Linux distribution installed.
 
+
+Website work -  google.com ---> OS caches--->Resolver (ISP) cache --> root server(top level hirarechy in dns)-->TLD(Told level domain)--Authorative name server
+
+
+
