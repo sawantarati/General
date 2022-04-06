@@ -39,3 +39,14 @@ A CMD command is used to set a default command that gets executed once you run t
 In case you provide a command with the Docker run command, the CMD arguments get ignored from the dockerfile. 
 
 An ENTRYPOINT command, unlike CMD, does not ignore additional parameters that you specify in your Docker run command. Executable
+
+
+How to change a container port of a running container without stopping container.
+jombie process, how it is created and how we can created
+what is thread-dump and heap-dump how to analyse it.
+ERP table/protocol (how data will flow when user hit a website)
+OSI model tcpit /udp protocol
+
+
+
+
